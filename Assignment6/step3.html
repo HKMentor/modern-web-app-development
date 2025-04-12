@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 3: Your Review</title>
+</head>
+<body>
+    <center>
+        <table  style="border-collapse: collapse;">
+            <tr>
+                <td style="padding: 15px; background-color: #5cce5c;" >Step 1: Account</td>
+                <td style="padding: 15px; background-color: #5cce5c;">Step 2: Personal Details</td>
+                <td style="padding: 15px; background-color: #6099cf;">Step 3: Your Review</td>
+            </tr>
+        </table>
+    </center>
+    <br>
+    <form action="" style="text-align: left;">
+        <fieldset style="width: 450px; margin: 0 auto;">
+            <legend>Your Review</legend>
+            <p>How did you hear about us?</p> 
+            <select name="source">
+                <option value="" disabled selected>Select an option</option>
+                <option value="social_media">Social Media</option>
+                <option value="friends">Friends & Family</option>
+                <option value="search_engine">Search Engine (Google, Bing, etc.)</option>
+                <option value="ads">Online Ads</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+
+            <p>Would you visit again?</p>
+            <input type="radio" name="visit" value="yes"> Yes
+            <input type="radio" name="visit" value="no"> No
+            <input type="radio" name="visit" value="maybe"> Maybe
+            <br><br>
+
+            <label for="comment">Comment:</label> <br>
+            <textarea name="comment" id="comment" placeholder="Enter your comments here..." rows="4" cols="50"></textarea>
+            <br><br>
+
+            <label for="document">Documents:</label> <br>
+            <input type="file" name="document">
+            <br><br>
+
+            <p><input type="checkbox"> Sign me up for email updates</p>
+            <br>
+
+            <a href="./step2.html"> 
+                <img src="./images/back.png" alt="back" width="100px">  
+            </a>
+            <a href="https://www.instagram.com/hooria_codehub?igsh=ZWhvMmVucm5ueHBl"> 
+                <img src="./images/submit.png" alt="next" width="100px">  
+            </a>
+        </fieldset>
+    </form>
+</body>
+</html>
