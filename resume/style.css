@@ -1,0 +1,7 @@
+body{
+    padding: 5px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
