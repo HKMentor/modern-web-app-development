@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.top-nav{
+    background-color:#ececec ;
+    height: 50px;
+    border-bottom: 1px solid #b9b9b9;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 18px;
+   color: #383737;
+   transition: all 0.3s ease;
+
+
+}   
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #b9b9b9;
+    position: fixed;       
+   
+    width: 100%;           
+    z-index: 1000; 
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #575757;
+    cursor: pointer;
+
+
+
+}
+
+nav ul li a:hover{
+    color: #2a2929;
+    transition: all 0.3s ease;
+
+}
+nav ul li a.lighGrey{
+    color: #908e8e;
+    cursor: not-allowed;
+}
+nav ul li a.lighGrey:hover{
+    color: blue;
+    
+}
+nav ul li  a sup{
+    color: white;
+    background-color: royalblue;
+    border-radius: 50px;
+    font-size: 8px;
+    padding: 3px;
+    font-weight: bold;
+}
+nav ul li a.active{
+    color: #2a2929;
+    font-weight: bold;
+    border-bottom: 2px solid #2a2929 ;
+}
+.login{
+    text-decoration: none;
+    color: #575757;
+    font-weight:600;
+    padding: 0 10px;
+
+
+}
+/* bottom nav */
+.bottom-nav{
+    background-color: #ececec;
+    position: fixed;
+    margin-top:  70px;
+    height: 30px;
+    border-bottom:  1px solid #b9b9b9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.bottom-nav p{
+    color: #3e3e3e;
+}
+.bottom-nav p span{
+    color: #908e8e;
+    padding: 10px;
+}
+.bottom-nav .language{
+font-weight: bold;
+font-size: 14px;
+color: #575757;
+}
+
+/* buutton */
+.btn {
+    padding:  10px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(17, 17, 17);
+}
+.btn a{
+    text-decoration: none;
+color: white;
+font-weight: bold;
+padding:  0 10px;
+
+
+}
+.btn:hover{
+    background-color: #575757;
+    transition: all 0.3s ease;
+}
+
+
+/* main hero content */
+.hero-div{
+    background-color: #ffffff;
+    display: flex;
+    margin-top:  100px;
+
+
+}
+.left-div{
+    width: 25%;
+    height: 100%;
+}
+.center-div{
+    width: 55%;
+    height: 100%;
+
+}
+.right-div{
+    width: 20%;
+ height: 100%;
+}

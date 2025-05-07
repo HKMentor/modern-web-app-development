@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(0, 1, 1);
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.big-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 0 70px;
+    margin-top: -2em;
+
+}
+/* container2 ka kam  */
+.container2{
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 40%;
+    height:500px;
+    margin: 0 auto;
+margin-top: 30px;
+box-shadow: 0 0 50px rgba(255, 255, 255, 0.8);
+position: relative;
+}
+.container2-content h1{
+    color: #0cb2ef;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -35em;
+    text-decoration: underline;
+}
+.container2-content h1 span{
+    color: #f74125;
+    text-decoration: underline;
+}
+
+.container2-content p{
+    color: #7a7878;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-right: 50px;
+    text-shadow: #0cb2ef 0px 0px 10px;
+
+}
+.con2-beta{
+    background-color: #0cb2ef;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    box-shadow: 0 0 34px rgba(0,0,0,0.8);
+}
+.con2-beta p{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 3em;
+    font-weight: bold;
+    padding: 30px;
+    
+    font-family: sans-serif;
+    text-shadow: #e78606 0px 6px 15px ;
+}
+.con2-child1{
+    background-color: rgb(248, 165, 178);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 7%;
+    left: 50%;
+}
+.con2-child2{
+    background-color: rgb(249, 140, 158);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+     top: -13%;
+     left: 34%;
+}
+.con2-child3{
+    background-color: rgb(251, 97, 123);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -26%;
+    left: 65%;
+}
+.con2-child4{
+    background-color: rgb(232, 159, 172);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -32%;
+    left: 72%;
+}
+.con2-child5{
+    background-color: rgb(230, 59, 87);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -68%;
+    left: 20%;
+   
+}
+.con2-child6{
+    background-color: rgb(245, 173, 185);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -75%;
+    left: 10%;
+}
+.con2-child7{
+    background-color: rgb(212, 50, 77);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+   top: -80%;
+   left: 20px;
+}
+.con2-child8{
+    background-color: rgb(250, 107, 131);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+   top: -85%;
+   left: 40px;
+}
+.con2-child9{
+    background-color: rgb(147, 8, 31);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+   top: -95%;
+   left: 80px;
+}
+.con2-child10{
+    background-color: rgb(245, 113, 135);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+   top: -105%;
+   left: 150px;
+}
+/* container 1 ka kam or usky chil */
+.container1{
+    background-color: #0cb2ef;
+    border-radius: 50%;
+    width: 20%;
+    height:250px;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 50px #1494e4cc;
+}
+.conatainer1-child{
+    background-color: #4a2a01;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 34px rgba(131, 59, 8, 0.8);
+    transform: translate(-50%, -50%);
+}
+.conatainer1-child1{
+    background-color: #68caed;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 14px rgba(87, 158, 235, 0.8);
+    transform: translate(-50%, -50%);
+}
+.conatainer1-child1-kid1{
+    background-color: #603a08;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 14px rgba(131, 59, 8, 0.8);
+    transform: translate(-50%, -50%);
+}
+
+/* container3 ka kam or usky child */
+.container3{
+    background-color: red;
+    border-radius: 50%;
+    width: 20%;
+    height:250px;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 50px rgba(246, 56, 56, 0.8);
+}
+.container3-child{
+    background-color: #f7a625;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 34px rgba(255, 193, 58, 0.8);
+    transform: translate(-50%, -50%);
+}
+.conatainer3-child1{
+    background-color: #ab1515;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 34px rgba(232, 19, 19, 0.8);
+    transform: translate(-50%, -50%);
+}
+.conatainer3-child1-kid1{
+    background-color: #fd950d;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 14px rgba(239, 132, 55, 0.8);
+    transform: translate(-50%, -50%);
+}
